@@ -1,0 +1,17 @@
+{
+  "name": "Scheda",
+  "short_name": "Scheda",
+  "start_url": "/scheda/",
+  "scope": "/scheda/",
+  "display": "standalone",
+  "background_color": "#050506",
+  "theme_color": "#050506",
+  "icons": [
+    {
+      "src": "apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
