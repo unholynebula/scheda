@@ -608,8 +608,12 @@ const DEFAULT_TUNING = {
   readinessStrength: 1,     // quanto pesa "come ti senti" (0 = ignoralo)
   progressionSteps: 1,      // scatti aggiunti quando chiudi il range di ripetizioni
   restWarmup: 45,
-  restCompoundHeavy: 150,   // multiarticolare con range fino a 8 ripetizioni
-  restCompound: 120,        // multiarticolare oltre le 8
+  /* Avevo accorciato questi valori leggendo male Singer 2024. La meta-analisi
+     trova ampia sovrapposizione fra le durate e stime centrali che semmai
+     favoriscono i recuperi piu' lunghi su braccio e coscia: accorciare non fa
+     crescere di piu'. Ripristinati i valori originali. */
+  restCompoundHeavy: 180,   // multiarticolare con range fino a 8 ripetizioni
+  restCompound: 150,        // multiarticolare oltre le 8
   restIso: 90,              // isolamento fino a 14 ripetizioni
   restIsoHighRep: 60,       // isolamento da 15 ripetizioni in su
   maxJumpKg: 60,            // salto massimo ammesso fra due step di riscaldamento
